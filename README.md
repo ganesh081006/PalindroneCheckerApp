@@ -1,44 +1,155 @@
-# PalindroneCheckerApp
-// running procedure
-// flow of project
-// objective
-// opened main java
-// connected intellij and git
-//checked files
-# UC2 – Hardcoded Palindrome Checker (Java)
+# Palindrome Checker App
 
-## Description
+## Overview
 
-This program checks whether a hardcoded word is a palindrome.
-A palindrome is a word that reads the same forward and backward (for example: madam, level, radar).
+The **Palindrome Checker App** is a console-based Java application that checks whether a given string is a palindrome.
+A palindrome is a word that reads the same forward and backward (examples: madam, level, radar).
 
-## What I Implemented
+This project helps strengthen core programming fundamentals such as loops, string handling, and basic data structure concepts.
 
-* Created a Java class `UseCase2PalindromeCheckerApp`
-* Used a hardcoded string `"madam"`
-* Reversed the string using a loop
-* Compared the original string with the reversed string
-* Printed whether the word is a palindrome or not
+---
 
-## How the Program Works
+## UC3: Palindrome Check Using String Reverse
 
-1. The program starts from the `main()` method.
-2. A string variable stores a hardcoded word.
-3. The program reverses the string using a `for` loop.
-4. It compares the original word with the reversed word.
-5. If both are equal, it prints that the word is a palindrome.
+### Goal
 
-## Example Output
+Check whether a string is a palindrome by reversing it and comparing it with the original string.
 
-madam is a Palindrome
+### Program Flow
+
+1. Store a string value in a variable.
+2. Reverse the string using a loop.
+3. Compare the original string with the reversed string.
+4. Display whether the string is a palindrome.
+
+---
+
+## Key Concepts Used
+
+### 1. Loop (for loop)
+
+A `for` loop is used to iterate through the characters of the string in reverse order.
+
+### 2. String Immutability
+
+In Java, `String` objects are immutable, meaning their values cannot be changed once created. Any modification creates a new String object.
+
+### 3. String Concatenation (+)
+
+String concatenation is used to build the reversed string character by character.
+
+### 4. equals() Method
+
+The `equals()` method compares the actual content of two strings rather than their memory references.
+
+### Data Structure Used
+
+String
+
+---
 
 ## How to Compile and Run
 
 Compile the program:
-javac UseCase2PalindromeCheckerApp.java
+
+```
+javac UseCase3PalindromeCheckerApp.java
+```
 
 Run the program:
-java UseCase2PalindromeCheckerApp
+
+```
+java UseCase3PalindromeCheckerApp
+```
+
+---
+
+## Example Output
+
+```
+madam is a Palindrome
+```
+
+---
+
+## Technologies Used
+
+* Java
+* Git
+* GitHub
+# Palindrome Checker App
+
+## Overview
+
+The **Palindrome Checker App** is a console-based Java application that checks whether a given string is a palindrome.
+A palindrome is a word that reads the same forward and backward (examples: madam, level, radar).
+
+This project helps strengthen core programming fundamentals such as loops, string handling, and basic data structure concepts.
+
+---
+
+## UC3: Palindrome Check Using String Reverse
+
+### Goal
+
+Check whether a string is a palindrome by reversing it and comparing it with the original string.
+
+### Program Flow
+
+1. Store a string value in a variable.
+2. Reverse the string using a loop.
+3. Compare the original string with the reversed string.
+4. Display whether the string is a palindrome.
+
+---
+
+## Key Concepts Used
+
+### 1. Loop (for loop)
+
+A `for` loop is used to iterate through the characters of the string in reverse order.
+
+### 2. String Immutability
+
+In Java, `String` objects are immutable, meaning their values cannot be changed once created. Any modification creates a new String object.
+
+### 3. String Concatenation (+)
+
+String concatenation is used to build the reversed string character by character.
+
+### 4. equals() Method
+
+The `equals()` method compares the actual content of two strings rather than their memory references.
+
+### Data Structure Used
+
+String
+
+---
+
+## How to Compile and Run
+
+Compile the program:
+
+```
+javac UseCase3PalindromeCheckerApp.java
+```
+
+Run the program:
+
+```
+java UseCase3PalindromeCheckerApp
+```
+
+---
+
+## Example Output
+
+```
+madam is a Palindrome
+```
+
+---
 
 ## Technologies Used
 
